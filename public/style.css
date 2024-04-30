@@ -21,6 +21,10 @@ svg {
   margin: 8vh auto;
 }
 
+ul :hover, li :hover {
+  color: red;
+}
+
 nav ul {
   --min: 10ch;
   --gap: 1rem;
@@ -44,4 +48,10 @@ nav ul > * {
 
 a:not([class]) {
   text-underline-offset: 0.25em;
+}
+
+.page-footer {
+  border-radius: 75px;
+  background: linear-gradient(145deg, #d3ab61, #facb74);
+  box-shadow: 32px 32px 63px #9f8149, -32px -32px 63px #fffb8f;
 }
